@@ -211,8 +211,8 @@ for(let i=0;i<100;i++){
 
 
 function Create_grapf(getdata,getdata1) {
-	let screen_w = 500;
-	let screen_h = 300;
+	let screen_w = 600;
+	let screen_h = 500;
 	let Max_val = 100;
 	let Min_val = 0;
 	let i=0;
@@ -232,7 +232,7 @@ function Create_grapf(getdata,getdata1) {
 	
 	
 	
-	let display_text="<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='" + screen_h + "' width='" + screen_w + "' viewBox='-50 -50 650 400' class='SvgFrame'>";
+	let display_text="<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='" + screen_h + "' width='" + screen_w + "' viewBox='-50 -50 750 600' class='SvgFrame'>";
 	display_text = display_text + "<line x1='0' y1='0' x2='" + screen_w + "' y2='0' style='stroke:black;stroke-width:1' />";
 	display_text = display_text + "<line x1='0' y1='" + screen_h + "' x2='" + screen_w + "' y2='" + screen_h + "' style='stroke:black;stroke-width:1' />";
 	display_text = display_text + "<line x1='0' y1='0' x2='0' y2='" + screen_h + "' style='stroke:black;stroke-width:1' />";
@@ -292,3 +292,4 @@ function Create_grapf(getdata,getdata1) {
 </script>
 </body>
 </html>
+
