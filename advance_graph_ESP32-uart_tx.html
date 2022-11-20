@@ -258,7 +258,7 @@ function Create_grapf(getdata,getdata1) {
     
 	
 	
-	for(ii=0;ii<2;ii++){
+	for(ii=0;ii<1;ii++){
 	    let x1 = 0;
 	    
 	    for(let i = 0;i<=98;i++){
